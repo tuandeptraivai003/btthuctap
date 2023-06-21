@@ -1,0 +1,1440 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Vương Trung Đức </title>
+    <link rel="stylesheet" href="https://unpkg.com/swipper@7/swiper-budle.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+    <link
+        rel="stylesheet"
+        type="text/css"
+        href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css"
+      />
+    <link rel="stylesheet" href="main.css"> 
+</head> 
+
+<header class="header">
+    <div class="header-1">
+        <a href="#" class="logo"> <i class="fas fa-book"></i> DucBooks </a>
+        <form action="" class="search-form">
+            <input type="search" name="" placeholder="search here..." id="search-box">
+            <label for="search-box" class="fas fa-search"></label>
+        </form>
+
+        <div class="icons">
+            <div id="search-btn" class="fas fa-search"></div>
+            <a href="#" class="fas fa-heart"></a>           
+            <a href="#" class="fas fa-shopping-cart"></a>
+            <div class="cart-list">
+                <div class="list-hover">
+                    <img src="/img/xeh.jpg" alt="" class="icons-nocart">
+                    <span class="icons-nocart-msg">                    
+                        No products
+                    </span>
+                 </div>
+            </div>
+            <div id="login-btn" class="fas fa-user"></div>
+        </div>
+
+    </div>
+
+    <div class="header-2">
+        <nav class="navbar">
+            <a href="#home"> home </a>
+            <a href="#featured"> featured </a>
+            <a href="#arrivals"> arrivals </a>
+            <a href="#reviews"> reviews </a>
+            <a href="#blogs"> blogs </a>
+        </nav>
+    </div>
+
+</header>
+
+<nav class="bottom-navbar">
+    <a href="#home" class="fas fa-home"></a>
+    <a href="#featured" class="fas fa-list"></a>
+    <a href="#arrivals" class="fas fa-tags"></a>
+    <a href="#reviews" class="fas fa-comments"></a>
+    <a href="#blogs" class="fas fa-blogs"></a>
+</nav>
+
+<div class="login-form-container">
+
+    <div id="close-login-btn" class="fas fa-times"></div>
+
+    <form action="">
+        <h3>sign in</h3>
+        <span>username</span>
+        <input type="email" name="" class="box" placeholder="enter your email" id="">
+        <span>password</span>
+        <input type="password" name="" class="box"  placeholder="enter your password" id="">
+        <div class="checkbox">
+            <input type="checkbox" name="" id="remember-me">
+            <label for="remember-me"> remember me </label>
+        </div>
+        <input type="submit" value="sign in" class="btn">
+        <p>forget password ? <a href="#">click here</a></p>
+        <p>don't have an account ? <a href="#">create one</a></p>
+    </form>
+</div>
+
+<section class="home" id="home">
+
+    <div class="row">
+
+        <div class="content">
+            <h3>upto 75% off</h3>
+            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Mollitia nemo quod reprehenderit quasi quas dolores dolorum possimus. Maiores itaque nulla repellendus, similique enim nisi sapiente cupiditate quidem labore cumque laboriosam?</p>
+            <a href="#" class="btn">shop now</a>
+        </div>
+
+        <div class="swiper books-slider">
+            <div class="swiper wraper">
+                <a href="#" class="swiper-slide"><img src="img/book-1.jpg" alt=""></a>
+                <a href="#" class="swiper-slide"><img src="img/book-2.jpg" alt=""></a>
+                <a href="#" class="swiper-slide"><img src="img/book-3.jpg" alt=""></a>
+                <a href="#" class="swiper-slide"><img src="img/book-4.jpg" alt=""></a>
+                <a href="#" class="swiper-slide"><img src="img/book-5.jpg" alt=""></a>
+                <a href="#" class="swiper-slide"><img src="img/book-6.jpg" alt=""></a>
+            </div>
+        </div>
+
+    </div>
+
+</section>
+
+<section class="icons-container">
+    <div class="icons">
+        <i class="fas fa-plane"></i>
+        <div class="content">
+            <h3>free shipping</h3>
+            <p>order over $100</p>
+        </div>
+    </div>
+
+    <div class="icons">
+        <i class="fas fa-lock"></i>
+        <div class="content">
+            <h3>secure payment</h3>
+            <p>100 secure payment</p>
+        </div>
+    </div>
+
+    <div class="icons">
+        <i class="fas fa-redo-alt"></i>
+        <div class="content">
+            <h3>easy returns</h3>
+            <p>10 days returns</p>
+        </div>
+    </div>
+
+    <div class="icons">
+        <i class="fas fa-headset"></i>
+        <div class="content">
+            <h3>24/7 support</h3>
+            <p>call us anytime</p>
+        </div>
+    </div>
+</section>
+
+<section class="featured" id="featured">
+    <h1 class="heading"><span>featured books</span></h1>
+    <div class="swiper featured-slider">
+        <div class="swiper-wrapper">
+            <div class="swiper-slider box">
+                <div class="icons">
+                    <a href="chitietsanpham.html" class="fas fa-search"></a>
+                    <button href="#" class="fas fa-heart"></button>
+                    <button id="js-btn-eye" class="fas fa-eye "></button>
+                </div>
+                <div class="image">
+                    <img src="img/book-1.jpg" alt="">
+                </div>
+                <div class="content">
+                    <h3>featured books</h3>
+                    <div class="price">$15.99<span>$20.99</span></div>
+                    <a href="#" class="btn">add to cart</a>
+                </div>
+            </div>
+
+            <div class="swiper-slider box">
+                <div class="icons">
+                    <a href="chitietsanpham1.html" class="fas fa-search"></a>
+                    <button href="#" class="fas fa-heart"></button>
+                    <button id="js-btn-eye1" class="fas fa-eye"></button>
+                </div>
+                <div class="image">
+                    <img src="img/book-2.jpg" alt="">
+                </div>
+                <div class="content">
+                    <h3>featured books</h3>
+                    <div class="price">$15.99<span>$20.99</span></div>
+                    <a href="#" class="btn">add to cart</a>
+                </div>
+            </div>
+
+            <div class="swiper-slider box">
+                <div class="icons">
+                    <a href="chitietsanpham2.html" class="fas fa-search"></a>
+                    <button href="#" class="fas fa-heart"></button>
+                    <button id="js-btn-eye2" class="fas fa-eye"></button>
+                </div>
+                <div class="image">
+                    <img src="img/book-3.jpg" alt="">
+                </div>
+                <div class="content">
+                    <h3>featured books</h3>
+                    <div class="price">$15.99<span>$20.99</span></div>
+                    <a href="#" class="btn">add to cart</a>
+                </div>
+            </div>
+
+            <div class="swiper-slider box">
+                <div class="icons">
+                    <a href="chitietsanpham3.html" class="fas fa-search"></a>
+                    <button href="#" class="fas fa-heart"></button>
+                    <button id="js-btn-eye3" class="fas fa-eye"></button>
+                </div>
+                <div class="image">
+                    <img src="img/book-4.jpg" alt="">
+                </div>
+                <div class="content">
+                    <h3>featured books</h3>
+                    <div class="price">$15.99<span>$20.99</span></div>
+                    <a href="#" class="btn">add to cart</a>
+                </div>
+            </div>
+
+            <div class="swiper-slider box">
+                <div class="icons">
+                    <a href="chitietsanpham4.html" class="fas fa-search"></a>
+                    <button href="#" class="fas fa-heart"></button>
+                    <button id="js-btn-eye4" class="fas fa-eye"></button>
+                </div>
+                <div class="image">
+                    <img src="img/book-5.jpg" alt="">
+                </div>
+                <div class="content">
+                    <h3>featured books</h3>
+                    <div class="price">$15.99<span>$20.99</span></div>
+                    <a href="#" class="btn">add to cart</a>
+                </div>
+            </div>
+
+            <div class="swiper-slider box">
+                <div class="icons">
+                    <a href="chitietsanpham5.html" class="fas fa-search"></a>
+                    <button href="#" class="fas fa-heart"></button>
+                    <button id="js-btn-eye5" class="fas fa-eye"></button>
+                </div>
+                <div class="image">
+                    <img src="img/book-6.jpg" alt="">
+                </div>
+                <div class="content">
+                    <h3>featured books</h3>
+                    <div class="price">$15.99<span>$20.99</span></div>
+                    <a href="#" class="btn">add to cart</a>
+                </div>
+            </div>
+
+            <div class="swiper-slider box">
+                <div class="icons">
+                    <a href="chitietsanpham6.html" class="fas fa-search"></a>
+                    <button href="#" class="fas fa-heart"></button>
+                    <button id="js-btn-eye6" class="fas fa-eye"></button>
+                </div>
+                <div class="image">
+                    <img src="img/book-7.jpg" alt="">
+                </div>
+                <div class="content">
+                    <h3>featured books</h3>
+                    <div class="price">$15.99<span>$20.99</span></div>
+                    <a href="#" class="btn">add to cart</a>
+                </div>
+            </div>
+
+            <div class="swiper-slider box">
+                <div class="icons">
+                    <a href="chitietsanpham7.html" class="fas fa-search"></a>
+                    <button href="#" class="fas fa-heart"></button>
+                    <button id="js-btn-eye7" class="fas fa-eye"></button>
+                </div>
+                <div class="image">
+                    <img src="img/book-8.jpg" alt="">
+                </div>
+                <div class="content">
+                    <h3>featured books</h3>
+                    <div class="price">$15.99<span>$20.99</span></div>
+                    <a href="#" class="btn">add to cart</a>
+                </div>
+            </div>
+
+            <div class="swiper-slider box">
+                <div class="icons">
+                    <a href="chitietsanpham8.html" class="fas fa-search"></a>
+                    <button href="#" class="fas fa-heart"></button>
+                    <button id="js-btn-eye8" class="fas fa-eye"></button>
+                </div>
+                <div class="image">
+                    <img src="img/book-9.jpg" alt="">
+                </div>
+                <div class="content">
+                    <h3>featured books</h3>
+                    <div class="price">$15.99<span>$20.99</span></div>
+                    <a href="#" class="btn">add to cart</a>
+                </div>
+            </div>
+
+            <div class="swiper-slider box">
+                <div class="icons">
+                    <a href="chitietsanpham9.html" class="fas fa-search"></a>
+                    <button href="#" class="fas fa-heart"></button>
+                    <button id="js-btn-eye9" class="fas fa-eye"></button>
+                </div>
+                <div class="image">
+                    <img src="img/book-10.jpg" alt="">
+                </div>
+                <div class="content">
+                    <h3>featured books</h3>
+                    <div class="price">$15.99<span>$20.99</span></div>
+                    <a href="#" class="btn">add to cart</a>
+                </div>
+            </div>
+        </div>
+
+
+    </div>
+</section>
+
+<section class="newsletter">
+    <form action="">
+        <h3>subscribe for latest updates</h3>
+        <input type="email" name="" placeholder="enter your email" id="" class="box">
+        <input type="submit" value="subscribe" class="btn">
+    </form>
+</section>
+
+<section class="arrivals" id="arrivals">
+    <h1 class="feading"><span>new arrivals</span></h1>
+    <div class="swiper arrivals-slider">
+        <div class="swiper-wrapper">
+            <a href="#" class="swiper-slide box">
+                <div class="image">
+                    <img src="img/book-1.jpg" alt="">
+                </div>
+                <div class="content">
+                    <h3>new arrivals</h3>
+                    <div class="price">$15.99 <span>$20.99</span></div>
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star-half-alt"></i>
+                    </div>
+                </div>
+            </a>
+
+            <a href="#" class="swiper-slide box">
+                <div class="image">
+                    <img src="img/book-2.jpg" alt="">
+                </div>
+                <div class="content">
+                    <h3>new arrivals</h3>
+                    <div class="price">$15.99 <span>$20.99</span></div>
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star-half-alt"></i>
+                    </div>
+                </div>
+            </a>
+
+            <a href="#" class="swiper-slide box">
+                <div class="image">
+                    <img src="img/book-3.jpg" alt="">
+                </div>
+                <div class="content">
+                    <h3>new arrivals</h3>
+                    <div class="price">$15.99 <span>$20.99</span></div>
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star-half-alt"></i>
+                    </div>
+                </div>
+            </a>
+
+            <a href="#" class="swiper-slide box">
+                <div class="image">
+                    <img src="img/book-4.jpg" alt="">
+                </div>
+                <div class="content">
+                    <h3>new arrivals</h3>
+                    <div class="price">$15.99 <span>$20.99</span></div>
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star-half-alt"></i>
+                    </div>
+                </div>
+            </a>
+
+            <a href="#" class="swiper-slide box">
+                <div class="image">
+                    <img src="img/book-5.jpg" alt="">
+                </div>
+                <div class="content">
+                    <h3>new arrivals</h3>
+                    <div class="price">$15.99 <span>$20.99</span></div>
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star-half-alt"></i>
+                    </div>
+                </div>
+            </a>
+        </div>
+
+    <div class="swiper arrivals-slider">
+        <div class="swiper-wrapper">
+            <a href="#" class="swiper-slide box">
+                <div class="image">
+                    <img src="img/book-6.jpg" alt="">
+                </div>
+                <div class="content">
+                    <h3>new arrivals</h3>
+                    <div class="price">$15.99 <span>$20.99</span></div>
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star-half-alt"></i>
+                    </div>
+                </div>
+            </a>
+
+            <a href="#" class="swiper-slide box">
+                <div class="image">
+                    <img src="img/book-7.jpg" alt="">
+                </div>
+                <div class="content">
+                    <h3>new arrivals</h3>
+                    <div class="price">$15.99 <span>$20.99</span></div>
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star-half-alt"></i>
+                    </div>
+                </div>
+            </a>
+
+            <a href="#" class="swiper-slide box">
+                <div class="image">
+                    <img src="img/book-8.jpg" alt="">
+                </div>
+                <div class="content">
+                    <h3>new arrivals</h3>
+                    <div class="price">$15.99 <span>$20.99</span></div>
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star-half-alt"></i>
+                    </div>
+                </div>
+            </a>
+
+            <a href="#" class="swiper-slide box">
+                <div class="image">
+                    <img src="img/book-9.jpg" alt="">
+                </div>
+                <div class="content">
+                    <h3>new arrivals</h3>
+                    <div class="price">$15.99 <span>$20.99</span></div>
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star-half-alt"></i>
+                    </div>
+                </div>
+            </a>
+
+            <a href="#" class="swiper-slide box">
+                <div class="image">
+                    <img src="img/book-10.jpg" alt="">
+                </div>
+                <div class="content">
+                    <h3>new arrivals</h3>
+                    <div class="price">$15.99 <span>$20.99</span></div>
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star-half-alt"></i>
+                    </div>
+                </div>
+            </a>
+        </div>
+    </div>
+</section>
+
+<section class="deal">
+    <div class="content">
+        <h3>deal of the day</h3>
+        <h1>upto 50% off</h1>
+        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Unde perspiciatis in atque dolore tempora queaarat fuga dolorum natus velit.</p>
+        <a href="#" class="btn">shop now</a>
+    </div>
+
+    <div class="image">
+        <img src="img/12345.webp" alt="">
+    </div>
+
+</section>
+
+<section class="reviews" id="reviews">
+    <h1 class="heading"><span> client's reviews </span></h1>
+    <div class="swiper reviews-slider">
+        <div class="swiper-wrap">
+            <div class="swiper-slide box">
+                <img src="img/pic-1.jpg" alt="">
+                <h3>John deo</h3>
+                <p>Lorem ipsum dolor, sit amet consectetur adipisicing alit. Aspernatur nihil ipsa placeat. Aperiam at sint, eos ex similique facere hic.</p>
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star-half-alt"></i>
+                </div>
+            </div>
+
+            <div class="swiper-slide box">
+                <img src="img/pic-2.webp" alt="">
+                <h3>John deo</h3>
+                <p>Lorem ipsum dolor, sit amet consectetur adipisicing alit. Aspernatur nihil ipsa placeat. Aperiam at sint, eos ex similique facere hic.</p>
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star-half-alt"></i>
+                </div>
+            </div>
+
+            <div class="swiper-slide box">
+                <img src="img/pic-3.webp" alt="">
+                <h3>John deo</h3>
+                <p>Lorem ipsum dolor, sit amet consectetur adipisicing alit. Aspernatur nihil ipsa placeat. Aperiam at sint, eos ex similique facere hic.</p>
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star-half-alt"></i>
+                </div>
+            </div>
+
+            <div class="swiper-slide box">
+                <img src="img/pic-4.webp" alt="">
+                <h3>John deo</h3>
+                <p>Lorem ipsum dolor, sit amet consectetur adipisicing alit. Aspernatur nihil ipsa placeat. Aperiam at sint, eos ex similique facere hic.</p>
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star-half-alt"></i>
+                </div>
+            </div>
+
+            <div class="swiper-slide box">
+                <img src="img/pic-5.webp" alt="">
+                <h3>John deo</h3>
+                <p>Lorem ipsum dolor, sit amet consectetur adipisicing alit. Aspernatur nihil ipsa placeat. Aperiam at sint, eos ex similique facere hic.</p>
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star-half-alt"></i>
+                </div>
+            </div>
+
+            <div class="swiper-slide box">
+                <img src="img/pic-6.webp" alt="">
+                <h3>John deo</h3>
+                <p>Lorem ipsum dolor, sit amet consectetur adipisicing alit. Aspernatur nihil ipsa placeat. Aperiam at sint, eos ex similique facere hic.</p>
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star-half-alt"></i>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<section class="blogs" id="blogs">
+    <h1 class="heading"> <span>our blogs</span> </h1>
+    <div class="swiper blogs-slider">
+        <div class="swiper wrapper">
+            <div class="swiper-slide box">
+                <div class="image">
+                    <img src="img/blogs-1.jpg" alt="">
+                </div>
+                <div class="content">
+                    <h3>blogs title goes here</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisising elit. Optio, odio.</p>
+                    <a href="#" class="btn">read more</a>
+                </div>
+            </div>
+
+            <div class="swiper-slide box">
+                <div class="image">
+                    <img src="img/blogs-2.png" alt="">
+                </div>
+                <div class="content">
+                    <h3>blogs title goes here</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisising elit. Optio, odio.</p>
+                    <a href="#" class="btn">read more</a>
+                </div>
+            </div>
+
+            <div class="swiper-slide box">
+                <div class="image">
+                    <img src="img/blogs-3.jpg" alt="">
+                </div>
+                <div class="content">
+                    <h3>blogs title goes here</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisising elit. Optio, odio.</p>
+                    <a href="#" class="btn">read more</a>
+                </div>
+            </div>
+
+            <div class="swiper-slide box">
+                <div class="image">
+                    <img src="img/blogs-4.png" alt="">
+                </div>
+                <div class="content">
+                    <h3>blogs title goes here</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisising elit. Optio, odio.</p>
+                    <a href="#" class="btn">read more</a>
+                </div>
+            </div>
+
+            <div class="swiper-slide box">
+                <div class="image">
+                    <img src="img/blogs-5.jpg" alt="">
+                </div>
+                <div class="content">
+                    <h3>blogs title goes here</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisising elit. Optio, odio.</p>
+                    <a href="#" class="btn">read more</a>
+                </div>
+            </div>
+
+            <div class="swiper-slide box">
+                <div class="image">
+                    <img src="https://img.lovepik.com/original_origin_pic/18/08/21/9ea90bf0c50abb034b921d1d59392a7d.png_wh860.png" alt="">
+                </div>
+                <div class="content">
+                    <h3>blogs title goes here</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisising elit. Optio, odio.</p>
+                    <a href="#" class="btn">read more</a>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<section class="footer">
+    <div class="box-container">
+        <div class="box">
+            <h3>our locations</h3>
+            <a href="#"> <i class="fas fa-map-marker-alt"></i> Vie </a>
+            <a href="#"> <i class="fas fa-map-marker-alt"></i> Arg </a>
+            <a href="#"> <i class="fas fa-map-marker-alt"></i> Fra </a>
+            <a href="#"> <i class="fas fa-map-marker-alt"></i> Bra </a>
+            <a href="#"> <i class="fas fa-map-marker-alt"></i> Esp </a>
+            <a href="#"> <i class="fas fa-map-marker-alt"></i> USA </a>
+        </div>
+
+        <div class="box">
+            <h3>quick links</h3>
+            <a href="#"> <i class="fas fa-arrow-right"></i> home </a>
+            <a href="#"> <i class="fas fa-arrow-right"></i> featured </a>
+            <a href="#"> <i class="fas fa-arrow-right"></i> arrivals </a>
+            <a href="#"> <i class="fas fa-arrow-right"></i> reviews </a>
+            <a href="#"> <i class="fas fa-arrow-right"></i> blogs </a>
+        </div>
+
+        <div class="box">
+            <h3>extra links</h3>
+            <a href="#"> <i class="fas fa-arrow-right"></i> account info </a>
+            <a href="#"> <i class="fas fa-arrow-right"></i> ordered items </a>
+            <a href="#"> <i class="fas fa-arrow-right"></i> privacy policy </a>
+            <a href="#"> <i class="fas fa-arrow-right"></i> payment method </a>
+            <a href="#"> <i class="fas fa-arrow-right"></i> our serivces </a>
+        </div>
+
+        <div class="box">
+            <h3>contact info</h3>
+            <a href="#"> <i class="fas fa-phone"></i> +08-11-22-33-44-55 </a>
+            <a href="#"> <i class="fas fa-phone"></i> +08-99-88-77-66-55 </a>
+            <a href="#"> <i class="fas fa-envelope"></i> JQKA@gmail.com </a>
+            <img src="img/map.jpg" class="map" alt="">
+        </div>
+
+    </div>
+
+    <div class="share">
+        <a href="#" class="fab fa-facebook-f"></a>
+        <a href="#" class="fab fa-twitter"></a>
+        <a href="#" class="fab fa-instagram"></a>
+        <a href="#" class="fab fa-linkedin"></a>
+        <a href="#" class="fab fa-pinterest"></a>
+    </div>
+
+</section>
+
+<div class="model1">
+    <div class="model1-container">
+        <div class="model1-container-all">
+            <div class="model1-icon">
+                <button class="fa fa-window-close js-model1-close" aria-hidden="true"></button>
+            </div>
+            <header class="model1-header">
+                Xem nhanh sản phẩm
+            </header>
+            <div class="model1-body">
+                <div class="model1-body-left">
+                    <div class="model1-img">
+                        <a href="">
+                            <img src="/img/book-1.jpg" alt="">
+                        </a>
+                    </div>
+                </div>
+                <div class="model1-body-right">
+                    <div class="model1-title">
+                        <a href="">AnhXTanh</a>
+                    </div>
+                    <div class="model1-price">
+                        <span>$15.99</span>
+                        <div class="model1-price-decrease">
+                            <span>Old price: </span>
+                            <span style="text-decoration-line: line-through;">$20.99</span>
+                        </div>
+                    </div>
+                    <div class="model1-note">
+                        <div class="model1-note-title">
+                            <div>
+                                <label for="">Short description:</label>
+                            </div>
+                            <span>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. </span>
+                        </div>
+                    </div>
+                    <div class="model1-shop">
+                        <span>Shop:</span>
+                        <a href="">DucBooks</a>
+                    </div>
+                    <div class="model1-code">
+                        <label>Barcode:</label>
+                        <span>978059312630</span>
+                    </div>
+                    <div class="model1-stocking">
+                        <label>Stocking:</label>
+                        <span>52 product</span>
+                    </div>
+                    <div class="model1-quantity">
+                        <span>Quantity:</span>
+                        <div class="model1-value-change">
+                            <input type="text" data-ca-min-qty="1" id="number" value="1" size="5" class="model1-input">
+                            <div class="updown">
+                                <button onclick="incrementValue()" value="input" class="increase"><label>+</label></button>
+                                <button onclick="decreaseValue()" value="input" class="decrease"><label>-</label></button>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="model1-button">
+                        <a href="" class="fas fa-heart"></a>
+                        <button class="model1-btn-buy fas fa-shopping-cart" type="button">
+                            Buy
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="model2">
+    <div class="model2-container">
+        <div class="model2-container-all">
+            <div class="model2-icon">
+                <button class="fa fa-window-close js-model2-close" aria-hidden="true"></button>
+            </div>
+            <header class="model2-header">
+                Xem nhanh sản phẩm
+            </header>
+            <div class="model2-body">
+                <div class="model2-body-left">
+                    <div class="model2-img">
+                        <a href="">
+                            <img src="/img/book-2.jpg" alt="">
+                        </a>
+                    </div>
+                </div>
+                <div class="model2-body-right">
+                    <div class="model2-title">
+                        <a href="">Vũ Trụ Trong Vỏ Hạt Rẻ</a>
+                    </div>
+                    <div class="model2-price">
+                        <span>$15.99</span>
+                        <div class="model2-price-decrease">
+                            <span>Old price: </span>
+                            <span style="text-decoration-line: line-through;">$20.99</span>
+                        </div>
+                    </div>
+                    <div class="model2-note">
+                        <div class="model2-note-title">
+                            <div>
+                                <label for="">Short description:</label>
+                            </div>
+                            <span>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. </span>
+                        </div>
+                    </div>
+                    <div class="model2-shop">
+                        <span>Shop:</span>
+                        <a href="">DucBooks</a>
+                    </div>
+                    <div class="model2-code">
+                        <label>Barcode:</label>
+                        <span>978059312630</span>
+                    </div>
+                    <div class="model2-stocking">
+                        <label>Stocking:</label>
+                        <span>52 product</span>
+                    </div>
+                    <div class="model2-quantity">
+                        <span>Quantity:</span>
+                        <div class="model2-value-change">
+                            <input type="text" data-ca-min-qty="1" id="number" value="1" size="5" class="model2-input">
+                            <div class="updown">
+                                <button onclick="incrementValue()" value="input" class="increase"><label>+</label></button>
+                                <button onclick="decreaseValue()" value="input" class="decrease"><label>-</label></button>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="model2-button">
+                        <a href="" class="fas fa-heart"></a>
+                        <button class="model2-btn-buy fas fa-shopping-cart" type="button">
+                            Buy
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="model3">
+    <div class="model3-container">
+        <div class="model3-container-all">
+            <div class="model3-icon">
+                <button class="fa fa-window-close js-model3-close" aria-hidden="true"></button>
+            </div>
+            <header class="model3-header">
+                Xem nhanh sản phẩm
+            </header>
+            <div class="model3-body">
+                <div class="model3-body-left">
+                    <div class="model3-img">
+                        <a href="">
+                            <img src="/img/book-3.jpg" alt="">
+                        </a>
+                    </div>
+                </div>
+                <div class="model3-body-right">
+                    <div class="model3-title">
+                        <a href="">Sống Mòn</a>
+                    </div>
+                    <div class="model3-price">
+                        <span>$15.99</span>
+                        <div class="model3-price-decrease">
+                            <span>Old price: </span>
+                            <span style="text-decoration-line: line-through;">$20.99</span>
+                        </div>
+                    </div>
+                    <div class="model3-note">
+                        <div class="model3-note-title">
+                            <div>
+                                <label for="">Short description:</label>
+                            </div>
+                            <span>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. </span>
+                        </div>
+                    </div>
+                    <div class="model3-shop">
+                        <span>Shop:</span>
+                        <a href="">DucBooks</a>
+                    </div>
+                    <div class="model3-code">
+                        <label>Barcode:</label>
+                        <span>978059312630</span>
+                    </div>
+                    <div class="model3-stocking">
+                        <label>Stocking:</label>
+                        <span>52 product</span>
+                    </div>
+                    <div class="model3-quantity">
+                        <span>Quantity:</span>
+                        <div class="model3-value-change">
+                            <input type="text" data-ca-min-qty="1" id="number" value="1" size="5" class="model3-input">
+                            <div class="updown">
+                                <button onclick="incrementValue()" value="input" class="increase"><label>+</label></button>
+                                <button onclick="decreaseValue()" value="input" class="decrease"><label>-</label></button>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="model3-button">
+                        <a href="" class="fas fa-heart"></a>
+                        <button class="model3-btn-buy fas fa-shopping-cart" type="button">
+                            Buy
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="model4">
+    <div class="model4-container">
+        <div class="model4-container-all">
+            <div class="model4-icon">
+                <button class="fa fa-window-close js-model4-close" aria-hidden="true"></button>
+            </div>
+            <header class="model4-header">
+                Xem nhanh sản phẩm
+            </header>
+            <div class="model4-body">
+                <div class="model4-body-left">
+                    <div class="model4-img">
+                        <a href="">
+                            <img src="/img/book-4.jpg" alt="">
+                        </a>
+                    </div>
+                </div>
+                <div class="model4-body-right">
+                    <div class="model4-title">
+                        <a href="">Chí Phèo</a>
+                    </div>
+                    <div class="model4-price">
+                        <span>$15.99</span>
+                        <div class="model4-price-decrease">
+                            <span>Old price: </span>
+                            <span style="text-decoration-line: line-through;">$20.99</span>
+                        </div>
+                    </div>
+                    <div class="model4-note">
+                        <div class="model4-note-title">
+                            <div>
+                                <label for="">Short description:</label>
+                            </div>
+                            <span>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. </span>
+                        </div>
+                    </div>
+                    <div class="model4-shop">
+                        <span>Shop:</span>
+                        <a href="">DucBooks</a>
+                    </div>
+                    <div class="model4-code">
+                        <label>Barcode:</label>
+                        <span>978059312630</span>
+                    </div>
+                    <div class="model4-stocking">
+                        <label>Stocking:</label>
+                        <span>52 product</span>
+                    </div>
+                    <div class="model4-quantity">
+                        <span>Quantity:</span>
+                        <div class="model4-value-change">
+                            <input type="text" data-ca-min-qty="1" id="number" value="1" size="5" class="model4-input">
+                            <div class="updown">
+                                <button onclick="incrementValue()" value="input" class="increase"><label>+</label></button>
+                                <button onclick="decreaseValue()" value="input" class="decrease"><label>-</label></button>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="model4-button">
+                        <a href="" class="fas fa-heart"></a>
+                        <button class="model4-btn-buy fas fa-shopping-cart" type="button">
+                            Buy
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="model5">
+    <div class="model5-container">
+        <div class="model5-container-all">
+            <div class="model5-icon">
+                <button class="fa fa-window-close js-model5-close" aria-hidden="true"></button>
+            </div>
+            <header class="model5-header">
+                Xem nhanh sản phẩm
+            </header>
+            <div class="model5-body">
+                <div class="model5-body-left">
+                    <div class="model5-img">
+                        <a href="">
+                            <img src="/img/book-5.jpg" alt="">
+                        </a>
+                    </div>
+                </div>
+                <div class="model5-body-right">
+                    <div class="model5-title">
+                        <a href="">Harry Potter</a>
+                    </div>
+                    <div class="model5-price">
+                        <span>$15.99</span>
+                        <div class="model5-price-decrease">
+                            <span>Old price: </span>
+                            <span style="text-decoration-line: line-through;">$20.99</span>
+                        </div>
+                    </div>
+                    <div class="model5-note">
+                        <div class="model5-note-title">
+                            <div>
+                                <label for="">Short description:</label>
+                            </div>
+                            <span>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. </span>
+                        </div>
+                    </div>
+                    <div class="model5-shop">
+                        <span>Shop:</span>
+                        <a href="">DucBooks</a>
+                    </div>
+                    <div class="model5-code">
+                        <label>Barcode:</label>
+                        <span>978059312630</span>
+                    </div>
+                    <div class="model5-stocking">
+                        <label>Stocking:</label>
+                        <span>52 product</span>
+                    </div>
+                    <div class="model5-quantity">
+                        <span>Quantity:</span>
+                        <div class="model5-value-change">
+                            <input type="text" data-ca-min-qty="1" id="number" value="1" size="5" class="model5-input">
+                            <div class="updown">
+                                <button onclick="incrementValue()" value="input" class="increase"><label>+</label></button>
+                                <button onclick="decreaseValue()" value="input" class="decrease"><label>-</label></button>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="model5-button">
+                        <a href="" class="fas fa-heart"></a>
+                        <button class="model5-btn-buy fas fa-shopping-cart" type="button">
+                            Buy
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="model6">
+    <div class="model6-container">
+        <div class="model6-container-all">
+            <div class="model6-icon">
+                <button class="fa fa-window-close js-model6-close" aria-hidden="true"></button>
+            </div>
+            <header class="model6-header">
+                Xem nhanh sản phẩm
+            </header>
+            <div class="model6-body">
+                <div class="model6-body-left">
+                    <div class="model6-img">
+                        <a href="">
+                            <img src="/img/book-6.jpg" alt="">
+                        </a>
+                    </div>
+                </div>
+                <div class="model6-body-right">
+                    <div class="model6-title">
+                        <a href="">Kỷ Niệm Về Một Dòng Sông</a>
+                    </div>
+                    <div class="model6-price">
+                        <span>$15.99</span>
+                        <div class="model6-price-decrease">
+                            <span>Old price: </span>
+                            <span style="text-decoration-line: line-through;">$20.99</span>
+                        </div>
+                    </div>
+                    <div class="model6-note">
+                        <div class="model6-note-title">
+                            <div>
+                                <label for="">Short description:</label>
+                            </div>
+                            <span>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. </span>
+                        </div>
+                    </div>
+                    <div class="model6-shop">
+                        <span>Shop:</span>
+                        <a href="">DucBooks</a>
+                    </div>
+                    <div class="model6-code">
+                        <label>Barcode:</label>
+                        <span>978059312630</span>
+                    </div>
+                    <div class="model6-stocking">
+                        <label>Stocking:</label>
+                        <span>52 product</span>
+                    </div>
+                    <div class="model6-quantity">
+                        <span>Quantity:</span>
+                        <div class="model6-value-change">
+                            <input type="text" data-ca-min-qty="1" id="number" value="1" size="5" class="model6-input">
+                            <div class="updown">
+                                <button onclick="incrementValue()" value="input" class="increase"><label>+</label></button>
+                                <button onclick="decreaseValue()" value="input" class="decrease"><label>-</label></button>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="model6-button">
+                        <a href="" class="fas fa-heart"></a>
+                        <button class="model6-btn-buy fas fa-shopping-cart" type="button">
+                            Buy
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="model7">
+    <div class="model7-container">
+        <div class="model7-container-all">
+            <div class="model7-icon">
+                <button class="fa fa-window-close js-model7-close" aria-hidden="true"></button>
+            </div>
+            <header class="model7-header">
+                Xem nhanh sản phẩm
+            </header>
+            <div class="model7-body">
+                <div class="model7-body-left">
+                    <div class="model7-img">
+                        <a href="">
+                            <img src="/img/book-7.jpg" alt="">
+                        </a>
+                    </div>
+                </div>
+                <div class="model7-body-right">
+                    <div class="model7-title">
+                        <a href="">Những Tấm lòng Cao Cả</a>
+                    </div>
+                    <div class="model7-price">
+                        <span>$15.99</span>
+                        <div class="model7-price-decrease">
+                            <span>Old price: </span>
+                            <span style="text-decoration-line: line-through;">$20.99</span>
+                        </div>
+                    </div>
+                    <div class="model7-note">
+                        <div class="model7-note-title">
+                            <div>
+                                <label for="">Short description:</label>
+                            </div>
+                            <span>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. </span>
+                        </div>
+                    </div>
+                    <div class="model7-shop">
+                        <span>Shop:</span>
+                        <a href="">DucBooks</a>
+                    </div>
+                    <div class="model7-code">
+                        <label>Barcode:</label>
+                        <span>978059312630</span>
+                    </div>
+                    <div class="model7-stocking">
+                        <label>Stocking:</label>
+                        <span>52 product</span>
+                    </div>
+                    <div class="model7-quantity">
+                        <span>Quantity:</span>
+                        <div class="model7-value-change">
+                            <input type="text" data-ca-min-qty="1" id="number" value="1" size="5" class="model7-input">
+                            <div class="updown">
+                                <button onclick="incrementValue()" value="input" class="increase"><label>+</label></button>
+                                <button onclick="decreaseValue()" value="input" class="decrease"><label>-</label></button>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="model7-button">
+                        <a href="" class="fas fa-heart"></a>
+                        <button class="model7-btn-buy fas fa-shopping-cart" type="button">
+                            Buy
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="model8">
+    <div class="model8-container">
+        <div class="model8-container-all">
+            <div class="model8-icon">
+                <button class="fa fa-window-close js-model8-close" aria-hidden="true"></button>
+            </div>
+            <header class="model8-header">
+                Xem nhanh sản phẩm
+            </header>
+            <div class="model8-body">
+                <div class="model8-body-left">
+                    <div class="model8-img">
+                        <a href="">
+                            <img src="/img/book-8.jpg" alt="">
+                        </a>
+                    </div>
+                </div>
+                <div class="model8-body-right">
+                    <div class="model8-title">
+                        <a href="">Dế Mèn Phiêu Lưu Ký</a>
+                    </div>
+                    <div class="model8-price">
+                        <span>$15.99</span>
+                        <div class="model8-price-decrease">
+                            <span>Old price: </span>
+                            <span style="text-decoration-line: line-through;">$20.99</span>
+                        </div>
+                    </div>
+                    <div class="model8-note">
+                        <div class="model8-note-title">
+                            <div>
+                                <label for="">Short description:</label>
+                            </div>
+                            <span>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. </span>
+                        </div>
+                    </div>
+                    <div class="model8-shop">
+                        <span>Shop:</span>
+                        <a href="">DucBooks</a>
+                    </div>
+                    <div class="model8-code">
+                        <label>Barcode:</label>
+                        <span>978059312630</span>
+                    </div>
+                    <div class="model8-stocking">
+                        <label>Stocking:</label>
+                        <span>52 product</span>
+                    </div>
+                    <div class="model8-quantity">
+                        <span>Quantity:</span>
+                        <div class="model8-value-change">
+                            <input type="text" data-ca-min-qty="1" id="number" value="1" size="5" class="model8-input">
+                            <div class="updown">
+                                <button onclick="incrementValue()" value="input" class="increase"><label>+</label></button>
+                                <button onclick="decreaseValue()" value="input" class="decrease"><label>-</label></button>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="model8-button">
+                        <a href="" class="fas fa-heart"></a>
+                        <button class="model8-btn-buy fas fa-shopping-cart" type="button">
+                            Buy
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="model9">
+    <div class="model9-container">
+        <div class="model9-container-all">
+            <div class="model9-icon">
+                <button class="fa fa-window-close js-model9-close" aria-hidden="true"></button>
+            </div>
+            <header class="model9-header">
+                Xem nhanh sản phẩm
+            </header>
+            <div class="model9-body">
+                <div class="model9-body-left">
+                    <div class="model9-img">
+                        <a href="">
+                            <img src="/img/book-9.jpg" alt="">
+                        </a>
+                    </div>
+                </div>
+                <div class="model9-body-right">
+                    <div class="model9-title">
+                        <a href="">The Davinci Code</a>
+                    </div>
+                    <div class="model9-price">
+                        <span>$15.99</span>
+                        <div class="model9-price-decrease">
+                            <span>Old price: </span>
+                            <span style="text-decoration-line: line-through;">$20.99</span>
+                        </div>
+                    </div>
+                    <div class="model9-note">
+                        <div class="model9-note-title">
+                            <div>
+                                <label for="">Short description:</label>
+                            </div>
+                            <span>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. </span>
+                        </div>
+                    </div>
+                    <div class="model9-shop">
+                        <span>Shop:</span>
+                        <a href="">DucBooks</a>
+                    </div>
+                    <div class="model9-code">
+                        <label>Barcode:</label>
+                        <span>978059312630</span>
+                    </div>
+                    <div class="model9-stocking">
+                        <label>Stocking:</label>
+                        <span>52 product</span>
+                    </div>
+                    <div class="model9-quantity">
+                        <span>Quantity:</span>
+                        <div class="model9-value-change">
+                            <input type="text" data-ca-min-qty="1" id="number" value="1" size="5" class="model9-input">
+                            <div class="updown">
+                                <button onclick="incrementValue()" value="input" class="increase"><label>+</label></button>
+                                <button onclick="decreaseValue()" value="input" class="decrease"><label>-</label></button>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="model9-button">
+                        <a href="" class="fas fa-heart"></a>
+                        <button class="model9-btn-buy fas fa-shopping-cart" type="button">
+                            Buy
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="model10">
+    <div class="model10-container">
+        <div class="model10-container-all">
+            <div class="model10-icon">
+                <button class="fa fa-window-close js-model10-close" aria-hidden="true"></button>
+            </div>
+            <header class="model10-header">
+                Xem nhanh sản phẩm
+            </header>
+            <div class="model10-body">
+                <div class="model10-body-left">
+                    <div class="model10-img">
+                        <a href="">
+                            <img src="/img/book-10.jpg" alt="">
+                        </a>
+                    </div>
+                </div>
+                <div class="model10-body-right">
+                    <div class="model10-title">
+                        <a href="">Ông Già Và Biển Cả</a>
+                    </div>
+                    <div class="model10-price">
+                        <span>$15.99</span>
+                        <div class="model10-price-decrease">
+                            <span>Old price: </span>
+                            <span style="text-decoration-line: line-through;">$20.99</span>
+                        </div>
+                    </div>
+                    <div class="model10-note">
+                        <div class="model10-note-title">
+                            <div>
+                                <label for="">Short description:</label>
+                            </div>
+                            <span>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. </span>
+                        </div>
+                    </div>
+                    <div class="model10-shop">
+                        <span>Shop:</span>
+                        <a href="">DucBooks</a>
+                    </div>
+                    <div class="model10-code">
+                        <label>Barcode:</label>
+                        <span>978059312630</span>
+                    </div>
+                    <div class="model10-stocking">
+                        <label>Stocking:</label>
+                        <span>52 product</span>
+                    </div>
+                    <div class="model10-quantity">
+                        <span>Quantity:</span>
+                        <div class="model10-value-change">
+                            <input type="text" data-ca-min-qty="1" id="number" value="1" size="5" class="model10-input">
+                            <div class="updown">
+                                <button onclick="incrementValue()" value="input" class="increase"><label>+</label></button>
+                                <button onclick="decreaseValue()" value="input" class="decrease"><label>-</label></button>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="model10-button">
+                        <a href="" class="fas fa-heart"></a>
+                        <button class="model10-btn-buy fas fa-shopping-cart" type="button">
+                            Buy
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<script src="https://unpkg.com/swiper@7/swiper-budle.min.js"></script>
+
+<script
+  type="text/javascript"
+  src="https://code.jquery.com/jquery-1.11.0.min.js"
+></script>
+<script
+  type="text/javascript"
+  src="https://code.jquery.com/jquery-migrate-1.2.1.min.js"
+></script>
+<script
+  type="text/javascript"
+  src="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"
+></script>
+
+<script src="/main.js"></script>
+
+
+</body>
+</html>

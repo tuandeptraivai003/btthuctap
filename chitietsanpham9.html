@@ -1,0 +1,214 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Hoàng Quốc Tuấn </title>
+    <link rel="stylesheet" href="https://unpkg.com/swipper@7/swiper-budle.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+    <link
+        rel="stylesheet"
+        type="text/css"
+        href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css"
+      />
+    <link rel="stylesheet" href="chitiet.css"> 
+</head> 
+
+<header class="header">
+    <div class="header-1">
+        <a href="/Index.html" class="logo"> <i class="fas fa-book"></i> DucBooks </a>
+        <form action="" class="search-form">
+            <input type="search" name="" placeholder="search here..." id="search-box">
+            <label for="search-box" class="fas fa-search"></label>
+        </form>
+
+        <div class="icons">
+            <div id="search-btn" class="fas fa-search"></div>
+            <a href="#" class="fas fa-heart"></a>
+            <a href="#" class="fas fa-shopping-cart"></a>
+            <div id="login-btn" class="fas fa-user"></div>
+        </div>
+
+    </div>
+
+    <div class="header-2">
+        <nav class="navbar">
+            <a href="/Index.html"> home </a>
+            <a href="/Index.html"> featured </a>
+            <a href="/Index.html"> arrivals </a>
+            <a href="/Index.html"> reviews </a>
+            <a href="/Index.html"> blogs </a>
+        </nav>
+    </div>
+
+</header>
+
+<nav class="bottom-navbar">
+    <a href="#home" class="fas fa-home"></a>
+    <a href="#featured" class="fas fa-list"></a>
+    <a href="#arrivals" class="fas fa-tags"></a>
+    <a href="#reviews" class="fas fa-comments"></a>
+    <a href="#blogs" class="fas fa-blogs"></a>
+</nav>
+
+<div class="login-form-container">
+
+    <div id="close-login-btn" class="fas fa-times"></div>
+
+    <form action="">
+        <h3>sign in</h3>
+        <span>username</span>
+        <input type="email" name="" class="box" placeholder="enter your email" id="">
+        <span>password</span>
+        <input type="password" name="" class="box"  placeholder="enter your password" id="">
+        <div class="checkbox">
+            <input type="checkbox" name="" id="remember-me">
+            <label for="remember-me"> remember me </label>
+        </div>
+        <input type="submit" value="sign in" class="btn">
+        <p>forget password ? <a href="#">click here</a></p>
+        <p>don't have an account ? <a href="#">create one</a></p>
+    </form>
+</div>
+
+<div class="model1">
+    <div class="model1-container-all">
+        <div class="model1-body">
+            <div class="model1-body-left">
+                <div class="model1-img">
+                    <a href="">
+                        <img src="/img/book-10.jpg" alt="">
+                    </a>
+                </div>
+            </div>
+            <div class="model1-body-right">
+                <div class="model1-title">
+                    <a href="">Ông Già Và Biển Cả</a>
+                </div>
+                <div class="model-publisher">
+                    <span>Publisher:</span>
+                    <a href="">Tuandeptrai</a>
+                </div>
+                <div class="model1-price">
+                    <span>$15.99</span>
+                    <div class="model1-price-decrease">
+                        <span>Old price: </span>
+                        <span style="text-decoration-line: line-through;">$20.99</span>
+                    </div>
+                </div>
+                <div class="model1-note">
+                    <div class="model1-note-title">
+                        <div>
+                            <label for="">Short description:</label>
+                        </div>
+                        <span>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. </span>
+                    </div>
+                </div>
+                <div class="model1-shop">
+                    <span>Shop:</span>
+                    <a href="">DucBooks</a>
+                </div>
+                <div class="model1-code">
+                    <label>Barcode:</label>
+                    <span>978059312630</span>
+                </div>
+                <div class="model1-stocking">
+                    <label>Stocking:</label>
+                    <span>52 product</span>
+                </div>
+                <div class="model1-quantity">
+                    <span>Quantity:</span>
+                    <div class="model1-value-change">
+                        <input type="text" data-ca-min-qty="1" id="number" value="1" size="5" class="model1-input">
+                        <div class="updown">
+                            <button onclick="incrementValue()" value="input" class="increase">+</button>
+                            <button onclick="decreaseValue()" value="input" class="decrease">-</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="model1-button">
+                    <a href="" class="fas fa-heart"></a>
+                    <button class="model1-btn-buy fas fa-shopping-cart" type="button">
+                        Buy
+                    </button>
+                </div>
+            </div>
+        </div>
+        <div class="motasanpham">
+            <div class="motasanpham-head">
+                <span>Product Description</span>
+            </div>
+            <div class="motasanpham-text">
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p> 
+                <p> Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+            </div>
+        </div>
+    </div>
+</div>
+<section class="footer">
+    <div class="box-container">
+        <div class="box">
+            <h3>our locations</h3>
+            <a href="#"> <i class="fas fa-map-marker-alt"></i> Vie </a>
+            <a href="#"> <i class="fas fa-map-marker-alt"></i> Arg </a>
+            <a href="#"> <i class="fas fa-map-marker-alt"></i> Fra </a>
+            <a href="#"> <i class="fas fa-map-marker-alt"></i> Bra </a>
+            <a href="#"> <i class="fas fa-map-marker-alt"></i> Esp </a>
+            <a href="#"> <i class="fas fa-map-marker-alt"></i> USA </a>
+        </div>
+
+        <div class="box">
+            <h3>quick links</h3>
+            <a href="#"> <i class="fas fa-arrow-right"></i> home </a>
+            <a href="#"> <i class="fas fa-arrow-right"></i> featured </a>
+            <a href="#"> <i class="fas fa-arrow-right"></i> arrivals </a>
+            <a href="#"> <i class="fas fa-arrow-right"></i> reviews </a>
+            <a href="#"> <i class="fas fa-arrow-right"></i> blogs </a>
+        </div>
+
+        <div class="box">
+            <h3>extra links</h3>
+            <a href="#"> <i class="fas fa-arrow-right"></i> account info </a>
+            <a href="#"> <i class="fas fa-arrow-right"></i> ordered items </a>
+            <a href="#"> <i class="fas fa-arrow-right"></i> privacy policy </a>
+            <a href="#"> <i class="fas fa-arrow-right"></i> payment method </a>
+            <a href="#"> <i class="fas fa-arrow-right"></i> our serivces </a>
+        </div>
+
+        <div class="box">
+            <h3>contact info</h3>
+            <a href="#"> <i class="fas fa-phone"></i> +08-11-22-33-44-55 </a>
+            <a href="#"> <i class="fas fa-phone"></i> +08-99-88-77-66-55 </a>
+            <a href="#"> <i class="fas fa-envelope"></i> JQKA@gmail.com </a>
+            <img src="img/map.jpg" class="map" alt="">
+        </div>
+
+    </div>
+
+    <div class="share">
+        <a href="#" class="fab fa-facebook-f"></a>
+        <a href="#" class="fab fa-twitter"></a>
+        <a href="#" class="fab fa-instagram"></a>
+        <a href="#" class="fab fa-linkedin"></a>
+        <a href="#" class="fab fa-pinterest"></a>
+    </div>
+
+</section>
+
+<script src="https://unpkg.com/swiper@7/swiper-budle.min.js"></script>
+
+<script
+  type="text/javascript"
+  src="https://code.jquery.com/jquery-1.11.0.min.js"
+></script>
+<script
+  type="text/javascript"
+  src="https://code.jquery.com/jquery-migrate-1.2.1.min.js"
+></script>
+<script
+  type="text/javascript"
+  src="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"
+></script>
+
+<script src="/main.js"></script>
